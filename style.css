@@ -1,0 +1,128 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #f4f9ff;
+    color: #333;
+    font-size: 0.875rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.inner {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #333;
+}
+
+.Explanation {
+    font-size: 1.55rem;
+    margin: 40px 0 0 50px;
+}
+
+/*header*/
+#header {
+margin: 50px 0 30px 0;
+}
+
+#header .logo img {
+    width: 160px;
+    display: block;
+}
+
+/*main*/
+#index-box {
+    background-color: white;
+    padding: 30px;
+    margin: 65px 0px 60px 0;
+    
+}
+
+#index-box .list {
+    padding-left: 15px;
+}
+#index-box .list li {
+    margin-bottom: 20px;
+}
+
+#detail-box {
+    margin-bottom: 120px;
+}
+#detail-box .Profile {
+    display: flex;
+}
+
+#detail-box .Profile img {
+    width: 45%;
+}
+
+#detail-box dl {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    border-top: #aca7a7 1px solid;
+    border-bottom: #aca7a7 1px solid;
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+}
+#detail-box .text {
+    margin-left: 60px;
+}
+
+#detail-box .detail-title {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#detail-box .text p {
+    margin-bottom: 20px;
+}
+
+#footer {
+    text-align: center;
+}
+
+/*レスポンシブ*/
+@media(max-width: 600px) {
+.inner {
+    padding: 0 40px;
+}
+
+/*header*/
+#header .logo {
+    padding-left: 20px;
+}
+/*mainvisual*/
+#mainvisual  img {
+    padding: 0 20px;
+}
+
+/*DETAIL*/
+#detail-box .Profile {
+    flex-direction: column;
+}
+
+#detail-box .Profile img {
+    width: 100%;
+}
+
+#detail-box .text {
+    margin:20px 0 0 0;
+}
+}
